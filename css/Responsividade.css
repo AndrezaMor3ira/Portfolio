@@ -1,0 +1,738 @@
+@media(max-width: 1670px) {
+
+    /*Sobre mim*/
+
+    .sobre_mim p {
+        top: 22%;
+    }
+
+    .conteudo-sobre_mim img {
+        right: 100px;
+    }
+
+    /*Portfolio*/
+    .projetos img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1520px) {
+
+    /*Home*/
+    .tecnico-foto {
+        margin-top: 0;
+    }
+
+    .container img {
+        width: 600px;
+    }
+
+    .back-foto {
+        width: 400px;
+    }
+
+    .img-eu {
+        width: 280px;
+    }
+
+    .content-foto-eu {
+        top: 30%;
+        left: 10%;
+    }
+
+    .img-caneca {
+        width: 60px;
+    }
+
+    .img-celular {
+        width: 50px;
+    }
+
+    .img-fone {
+        width: 120px;
+    }
+
+    .img-lampada {
+        width: 50px;
+    }
+
+    /*Sobre mim*/
+
+    .circulos-sobre_mim {
+        margin-top: -100px;
+    }
+
+    .circulo2 {
+        margin-top: 30px;
+    }
+
+    .sobre_mim p {
+        top: 20%;
+        font-size: 18px;
+    }
+
+    .conteudo-sobre_mim img {
+        width: 500px;
+        top: 25%;
+        right: 100px;
+    }
+
+    /*Portfolio*/
+    .projetos img {
+        width: 320px;
+    }
+}
+
+@media (max-width: 1350px) {
+
+    /*Sobre mim*/
+    .sobre_mim-h2 {
+        width: 180px;
+
+        font-size: 12px;
+    }
+
+    .circulo2 {
+        margin-left: 240px;
+        width: 36px;
+        height: 36px;
+    }
+
+    .sobre_mim p {
+        top: 20%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /*Portfolio*/
+
+    .projetos img {
+        width: 300px;
+    }
+
+    .content {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    /*Home*/
+    .home h1 {
+        font-size: 26px;
+    }
+
+    .container img {
+        width: 500px;
+    }
+
+    /*Sobre mim*/
+    .conteudo-sobre_mim img {
+        width: 400px;
+    }
+
+    /*Portfolio*/
+    .projetos img {
+        width: 250px;
+    }
+
+    /*Contatos*/
+    .flex {
+        font-size: 14px;
+    }
+
+    .title-contatos h4 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1170px) {
+
+    /*Header*/
+    header {
+        padding: 0 80px;
+    }
+
+    /*home*/
+    .home {
+        padding: 80px 80px 0;
+    }
+
+    /*Sobre mim*/
+    .sobre_mim p {
+
+        margin-left: 80px;
+        width: 45%;
+    }
+
+    .conteudo-sobre_mim img {
+        width: 380px;
+        right: 80px;
+    }
+
+    .opcoes-contato {
+        padding: 0 80px 20px;
+    }
+
+    .projetos {
+        padding: 0 80px;
+    }
+
+    .projeto {
+        font-size: 16px;
+    }
+
+    /*modal*/
+    .conteudo-modal {
+        width: 800px;
+    }
+
+    .img-site-pet_memoria_filmes {
+        width: 300px;
+        height: auto;
+    }
+
+    .descricao-modal p {
+        text-align: justify;
+        line-height: 20px;
+    }
+
+    .img-site {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 1050px) {
+    header {
+        font-size: 16px;
+    }
+
+    /*home*/
+    .home h1 {
+        font-size: 24px;
+    }
+
+    .container img {
+        width: 400px;
+    }
+
+    .back-foto {
+        width: 300px;
+    }
+
+    .content-foto-eu {
+        top: 38%;
+    }
+
+    .img-eu {
+        width: 220px;
+    }
+
+    .img-caneca {
+        width: 40px;
+    }
+
+    .img-celular {
+        width: 40px;
+    }
+
+    .img-fone {
+        width: 100px;
+    }
+
+    .img-lampada {
+        width: 30px;
+    }
+
+    /*Sobre mim*/
+
+    .circulos-sobre_mim {
+        margin-top: -60px;
+    }
+
+    .conteudo-sobre_mim img {
+        width: 300px;
+
+        top: 30%;
+    }
+
+    .sobre_mim p {
+        margin-left: 80px;
+        width: 50%;
+    }
+
+    /*Portfolio*/
+    .portfolio hr:first-of-type {
+        width: 80px;
+    }
+}
+
+@media(max-width: 1000px) {
+
+    /*header*/
+    header {
+        padding: 0 50px;
+    }
+
+    /*home*/
+    .home {
+        padding: 80px 50px 0;
+    }
+
+    /*sobre mim*/
+    .sobre_mim p {
+        margin-left: 50px;
+        width: 50%;
+    }
+
+    /*portfolio*/
+    .projetos {
+        padding: 0 50px;
+    }
+
+    .opcoes-contato {
+        padding: 0 50px 20px;
+    }
+
+    /*Contatos*/
+    .flex {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
+}
+
+@media(max-width: 960px) {
+    /*sobre mim*/
+
+    .sobre_mim {
+        height: 600px;
+    }
+
+    .sobre_mim p {
+        width: 40%;
+    }
+
+    .conteudo-sobre_mim img {
+        width: 360px;
+        top: 35%;
+    }
+
+    /*portfolio*/
+    .projetos img {
+        width: 200px;
+    }
+}
+
+@media(max-width: 870px) {
+
+    /*sobre mim*/
+    .sobre_mim p {
+        top: 12%;
+    }
+
+    .conteudo-sobre_mim img {
+        right: 30px;
+    }
+
+    /*Contatos*/
+    .flex {
+        gap: 8px;
+    }
+
+    /*modal*/
+    .conteudo-modal {
+        width: 600px;
+    }
+
+    .img-site {
+        margin-top: 50px;
+        margin-left: -80px;
+    }
+
+    .img-site-pet_memoria_filmes {
+        width: 200px;
+    }
+
+    .descricao-modal p {
+        text-align: justify;
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .descricao-modal h1 {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 810px) {
+    /*home*/
+
+    .home {
+        padding: 80px 0px 0;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*sobre mim*/
+    .circulos-sobre_mim {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .sobre_mim p {
+        width: 80%;
+    }
+
+    .conteudo-sobre_mim img {
+        right: 30%;
+        top: 60%
+    }
+
+    /*portfolio*/
+    .projetos {
+        flex-direction: column;
+    }
+
+    .projetos img {
+        width: 300px;
+    }
+
+    .projetos {
+        flex-direction: column;
+        gap: 90px;
+    }
+
+    /*contatos*/
+
+    .opcoes-contato {
+        margin-top: -260px;
+        gap: 10px;
+    }
+
+    .flex {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .icon-celular {
+        margin-left: -6px;
+        margin-right: -5px;
+    }
+
+    .icon-git {
+        margin-left: 2px;
+    }
+
+    .icon-insta {
+        margin-left: 6px;
+    }
+
+    .btn-fechar,
+    .btn-fechar-Memoria,
+    .btn-fechar-Fita {
+
+        right: 14%;
+    }
+
+}
+
+@media(max-width:730px) {
+
+    /*home*/
+    .tecnico-foto {
+        flex-direction: column-reverse;
+    }
+
+    .container img {
+        width: 500px;
+    }
+
+    .sobre_mim {
+        height: 700px;
+    }
+
+    .conteudo-sobre_mim img {
+        top: 60%;
+    }
+
+    .btn-fechar,
+    .btn-fechar-Memoria,
+    .btn-fechar-Fita {
+
+        right: 10%;
+    }
+}
+
+@media(max-width:700px) {
+    .conteudo-modal {
+        width: 500px;
+        height: auto;
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .img-site {
+        margin-top: unset;
+        margin-left: unset;
+    }
+}
+
+@media (max-width: 660px) {
+    header {
+        padding: 0 20px;
+    }
+}
+
+@media(max-width: 610px) {
+
+    .container img {
+        width: 450px;
+    }
+
+    .sobre_mim {
+        height: 720px;
+    }
+
+    .conteudo-sobre_mim img {
+        right: 24%;
+
+        top: 66%;
+    }
+}
+
+@media(max-width: 590px) {
+    .meu-nome {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100px;
+    }
+
+    header ul {
+        gap: 10px;
+    }
+
+    .sobre_mim-h2 {
+        width: 140px;
+        height: 70px;
+
+        font-size: 10px;
+    }
+
+    .circulo2 {
+        margin-left: 200px;
+    }
+
+    .circulo {
+        margin-left: 100px;
+    }
+
+    .portfolio h3 {
+        width: 250px;
+        height: 60px;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .conteudo-modal {
+        width: 450px;
+        height: auto;
+        flex-direction: column;
+        padding: 50px;
+    }
+}
+
+@media(max-width: 530px) {
+    .conteudo-sobre_mim img {
+        width: 300px;
+        top: 70%;
+    }
+
+    .meu-nome {
+        max-width: 67px;
+    }
+}
+
+@media(max-width: 500px) {
+    .sobre_mim p {
+        top: 10%;
+        font-size: 15px;
+    }
+
+    .container img {
+        width: 400px;
+    }
+
+    .content {
+        width: 60%;
+
+        font-size: 15px;
+    }
+
+    .conteudo-modal {
+        width: 350px;
+    }
+}
+
+@media(max-width: 450px) {
+    .sobre_mim p {
+        margin-left: 30px;
+        top: 5%;
+    }
+
+    .projetos img {
+        width: 250px;
+    }
+
+    .icon-insta {
+        margin-left: 0;
+    }
+
+    .icon-git {
+        margin-left: -2px;
+    }
+
+    .container img {
+        width: 350px;
+    }
+
+    .content {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 430px) {
+    .meu-nome {
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    header ul {
+        gap: 20px;
+    }
+
+    .home h1 {
+        font-size: 18px;
+    }
+
+    .home p {
+        font-size: 14px;
+    }
+
+    .back-foto {
+        width: 250px;
+    }
+
+    .img-eu {
+        width: 160px;
+    }
+
+    .content-foto-eu {
+        top: 48%;
+        left: 15%;
+    }
+
+    .img-caneca {
+        width: 28px;
+    }
+
+    .img-celular {
+        width: 30px;
+    }
+
+    .img-fone {
+        width: 80px;
+    }
+
+    .img-lampada {
+        width: 20px;
+    }
+
+    .conteudo-sobre_mim img {
+        width: 200px;
+        top: 80%;
+        right: 30%;
+    }
+
+    .title-contatos h4 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .opcoes-contato {
+        margin-top: -120px;
+    }
+
+    .icon-git {
+        margin-left: -5px;
+    }
+
+    .img-site {
+        gap: 20px;
+    }
+
+    .conteudo-modal {
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .btn-fechar,
+    .btn-fechar-Memoria,
+    .btn-fechar-Fita {
+        margin-top: unset;
+    }
+}
+
+@media(max-width: 380px) {
+    .container img {
+        width: 300px;
+    }
+
+    .content {
+        gap: 10px;
+
+    }
+
+
+    .home p {
+        font-size: 12px;
+    }
+
+    .sobre_mim p {
+        font-size: 14px;
+    }
+
+    .flex {
+        align-items: flex-start;
+    }
+
+    .opcoes-contato {
+        padding: 0;
+
+        align-items: flex-start;
+
+        padding-left: 6px;
+    }
+
+    .conteudo-modal {
+        width: 300px;
+    }
+}
+
+@media (max-width: 335px) {
+    .sobre_mim {
+        height: 800px;
+    }
+
+    .conteudo-modal {
+        width: 250px;
+    }
+}

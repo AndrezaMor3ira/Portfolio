@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+
+    <link rel="stylesheet" href="../css/Site.css" />
+    <link rel="stylesheet" href="../css/Responsividade.css">
+    <link rel="stylesheet" href="../css/Reset.css">
+
+    <script src="../js/site.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="meu-nome">Andreza Moreira</div>
+        <ul>
+            <li><a href="#Home" class="links-header">Home</a></li>
+            <li><a href="#Sobre-Mim" class="links-header link-sobre-mim">Sobre mim</a></li>
+            <li><a href="#Portfolio" class="links-header">Portifólio</a></li>
+            <li><a href="#Contatos" class="links-header">Contato</a></li>
+        </ul>
+    </header>
+    <hr class="divisoria-header-home">
+    <div class="home">
+        <p>Seja bem vindo(a)!!</p>
+        <h1 id="Home">Olá, sou Andreza Moreira<br>Uma desenenvolvedora Full-Stack</h1>
+        <div class="tecnico-foto">
+            <div class="container">
+                <img src="../assets/img-back-home.svg">
+                <div class="content">
+                    <p>Formada em técnico de Desenvolvimento de Sistemas.</p>
+                    <p>Com habilidades em: C, C#, SQL, Java, JavaScript, HTML, CSS, Asp.net.</p>
+                </div>
+            </div>
+            <div class="container-foto">
+                <img class="back-foto" src="../assets/foto.svg">
+                <div class="content-foto-lampada">
+                    <img class="img-lampada" src="../assets/Lampada.png">
+                </div>
+                <div class="content-foto-fone">
+                    <img class="img-fone" src="../assets/fone de ouvio.png">
+                </div>
+                <div class="content-foto-celular">
+                    <img class="img-celular" src="../assets/celular.png">
+                </div>
+                <div class="content-foto-caneca">
+                    <img class="img-caneca" src="../assets/caneca.png">
+                </div>
+                <div class="content-foto-eu">
+                    <img class="img-eu" src="../assets/Eu-foto.png">
+                </div>
+            </div>
+        </div>
+        <div class="circulos-sobre_mim">
+            <div id="Sobre-Mim" class="circulo"></div>
+            <div class="circulo2"></div>
+            <div class="sobre_mim-h2">
+                <h2>Sobre mim</h2>
+            </div>
+            <div class="circulo3"></div>
+        </div>
+    </div>
+
+    <div class="sobre_mim">
+        <img class="img-back-sobre_mim" src="../assets/img-sobremim.svg">
+        <div class="conteudo-sobre_mim">
+            <p>Atualmente, tenho 19 anos e moro em Salvador – Bahia. Sou formada em <span>Técnico de Desenvolvimento de
+                    Sistema na Rede Senai CIMATEC</span>, onde pude desenvolver diversas habilidades na área de
+                programação, tanto
+                de front-end quanto back-end. Com essa base sólida de conhecimentos adquiridos, continuo me aprofundando
+                na área e já realizei projetos em linguagens <span>C++</span>, <span>C#</span>, <span>CSS</span>,
+                <span>Html</span>, <span>JavaScript</span> e <span>SQL</span>, com o auxílio de
+                recursos como APIs e o framework Asp.net. Fora do mundo dos códigos, sou uma apaixonada por jogos,
+                especialmente aqueles com tramas cativantes, sou mãe de um cachorrinho chamado Luppy e adoro estimular
+                minha criatividade através da arte de desenhar. Como resultado, tenho facilidade na criação e execução
+                de designs Front-End. Se você quiser conferir algumas dessas minhas habilidades, veja meus projetos
+                abaixo!
+            </p>
+            <img src="../assets/Pc.png">
+        </div>
+    </div>
+
+    <div>
+        <div class="portfolio">
+            <hr>
+            <h3 id="Portfolio">Portfólio</h3>
+            <hr>
+        </div>
+        <div class="projetos">
+            <div class="projeto">
+                <p>Pet Shop CãoFortável</p>
+                <img class="btn-modal-PetShop" src="../assets/Img-PetShop.png">
+                <p>C#, asp.net, css, javascript</p>
+            </div>
+            <div class="projeto">
+                <p>Jogo da memória</p>
+                <img class="btn-modal-JogoMemoria" src="../assets/Img-JogoDaMemoria.png">
+                <p>Html, Css e JavaScript</p>
+            </div>
+            <div class=" projeto">
+                <p>Fita Filmes</p>
+                <img class="btn-modal-FitaFilmes" src="../assets/Img-FitaFilmes.png">
+                <p>Html, Css e JavaScript</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal PetShop hidden">
+        <div class="conteudo-modal">
+            <button class="btn-fechar">X</button>
+            <div class="img-site">
+                <img class="img-site-pet_memoria_filmes" src="../assets/img-LoginCliente.svg">
+                <a href="https://petshop-caofortavel.azurewebsites.net/">Ir para site!</a>
+            </div>
+            <div class="descricao-modal">
+                <h1>PetShop CãoFortável</h1>
+                <p>Esse projeto utiliza a sintaxe <span>Razor</span> e a linguaguem <span>C#</span> com o framework
+                    <span>Asp.Net MVC</span>
+                    e tem como objetivo gerenciar informações de cadastro e agendadmento de clientes e
+                    funcionários de um PetShop. Com conexexão com o banco de dados SQL, o projeto permite
+                    a realização de um CRUD, que permite ao usuário/cliente se cadastrar, editar seu cadastro e
+                    exclui-lo,
+                    além de fazer agendamentos. Já o usuário/funcionário pode realizar, editar e excluir agendamentos
+                    exibidos em uma tabela específica.</br>
+                    Para acessar a página do cliente basta realizar um cadastro no site. Para acessar a página do
+                    funcionário,
+                    é necessário inserir o login <span>"adm@gmail.com"</span> e a senha <span>123</span>.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal JogoMemoria hidden">
+
+        <div class="conteudo-modal">
+            <button class="btn-fechar-Memoria">X</button>
+            <div class="img-site">
+                <img class="img-site-pet_memoria_filmes" src="../assets/img-SiteMemoria.svg">
+                <a href="https://andrezamor3ira.github.io/JogoDaMemoria-GravityFalls/JogoHtml/Jogo.html">Ir para
+                    site!</a>
+            </div>
+            <div class="descricao-modal">
+                <h1>Jogo da memória Gravity Falls</h1>
+                <p>
+                    Este é um projeto de jogo de memória simples que utiliza <span>HTML</span>, <span>CSS</span> e
+                    <span>JavaScript</span>. O jogo
+                    consiste em encontrar todas as cartas correspondentes em um conjunto de cartas viradas para baixo.
+                    O jogador pode virar duas cartas por vez e, se elas não correspondem, as cartas voltam para a
+                    posição
+                    original. Se as cartas correspondem, elas permanecem viradas para cima e o jogador pode continuar
+                    virando
+                    as cartas até todas estarem para cima.<br>
+                    O jogo apresenta uma contagem de tempo, que começa em zero e é incrementada a cada segundo durante o
+                    jogo.
+                    Quando o jogo terminar o tempo gasto será exibido. O jogo pode ser jogado quantas vezes quiser.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal FitaFilmes hidden">
+
+        <div class="conteudo-modal">
+            <button class="btn-fechar-Fita">X</button>
+            <div class="img-site">
+                <img class="img-site-pet_memoria_filmes" src="../assets/Img-SiteFitaFilmes.svg">
+                <a href="https://andrezamor3ira.github.io/FitaFilmes/FitaFilmes.html">Ir para site!</a>
+            </div>
+            <div class="descricao-modal">
+                <h1>Fita Filmes</h1>
+                <p>
+                    Este projeto é um site de busca de filmes que utiliza uma API de filmes. O site
+                    apresenta uma lista de filmes separador por "Em alta" e seus gêneros, onde mostra o nome e a nota do
+                    respectivo filme.
+                    O projeto foi desenvolvido utilizando
+                    <span>HTML</span>, <span>CSS</span> e <span>JavaScript</span>.<br>
+                    Dentro do site, o usuário pode pesquisar por filmes, ver a sinopse deles ao clicar no mesmo. O site
+                    também possui uma
+                    opção de mudança de tema escuro para modo claro.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contatos">
+        <div class="title-contatos">
+            <h4 id="Contatos">Contatos</h4>
+        </div>
+
+        <div class="opcoes-contato">
+            <ul class="flex">
+                <li><img class="icon-celular" src="../assets/icontelefone.png">Celular: 71 9 9219-5560</li>
+                <li><img class="icon-email" src="../assets/icon-email.png">E-mail: andrezamor3ira@gmail.com</li>
+                <li><img class="icon-in" src="../assets/in.png"><a
+                        href="https://www.linkedin.com/in/andreza-moreira">Linkedin:
+                        www.linkedin.com/in/andreza-moreira</a></li>
+            </ul>
+            <ul class="flex">
+                <li><img class="icon-git" src="../assets/icon-git.png"><a
+                        href="https://github.com/AndrezaMor3ira/">Github: https://github.com/AndrezaMor3ira/</a>
+                </li>
+                <li><img class="icon-insta" src="../assets/icon-insta.png"><a href="
+                    https://www.instagram.com/dez_yeol/">Instagram:
+                        https://www.instagram.com/dez_yeol/</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
